@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="theme_entries">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+</resources>

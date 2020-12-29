@@ -1,0 +1,77 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akapps.akhanshali2017.scorekeeper3000.HomePage">
+
+    <item
+        android:id="@+id/action_startGame"
+        android:icon="@drawable/baseline_play_arrow_black_36"
+        android:title="Start Game"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:title="Menu"
+        android:icon="@drawable/icon_menu_black"
+        android:orderInCategory="1"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/action_Sort"
+                android:title="Sort Players"
+                android:icon="@drawable/sort_icon"
+                app:showAsAction="always">
+                <menu>
+                    app:showAsAction="always"
+                    <item
+                        android:id="@+id/revert_Original"
+                        android:title="Revert to Original"
+                        android:icon="@drawable/undo_icon"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/by_Highest"
+                        android:title="By Highest"
+                        android:icon="@drawable/arrow_up_icon"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/by_Lowest"
+                        android:title="By Lowest"
+                        android:icon="@drawable/arrow_down_icon"
+                        app:showAsAction="never" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/action_RecentScores"
+                android:icon="@drawable/ic_action_recent_scores"
+                android:title="Recent Scores"
+                android:visible="true"
+                android:orderInCategory="3"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/action_Suggestions"
+                android:icon="@drawable/suggestion_icon"
+                android:title="Suggestions / Bugs?"
+                android:orderInCategory="4"
+                android:visible="true"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/action_Instructions"
+                android:icon="@drawable/icon_gesture"
+                android:title="Instructions"
+                android:orderInCategory="5"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/action_Info"
+                android:icon="@drawable/info_icon"
+                android:title="About"
+                android:orderInCategory="6"
+                android:visible="true"
+                app:showAsAction="always" />
+
+        </menu>
+    </item>
+</menu>

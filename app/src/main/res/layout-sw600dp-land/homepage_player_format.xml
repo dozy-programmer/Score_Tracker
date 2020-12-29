@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/player_Image"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_weight="8"
+                android:scaleType="centerCrop"
+                android:background="@drawable/icon_player_blue"
+                app:civ_border_color="@color/orange_red"
+                app:civ_border_width="1dp"
+                app:civ_shadow="false"
+                app:civ_shadow_radius="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="98"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/player_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="60"
+            android:maxLines="1"
+            android:text="Player Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/orange"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/wins_Text"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="25"
+                android:gravity="bottom"
+                android:text="Wins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/green"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/draw_Text"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="25"
+                android:gravity="bottom"
+                android:text="Draw"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/yellow"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/loss_Text"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="25"
+                android:gravity="bottom"
+                android:text="Loss"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/red"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/total_Text"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="25"
+                android:gravity="bottom"
+                android:text="Total"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/pressed_blue"
+                android:textSize="27sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/player_Status_Switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-10dp"
+            android:layout_weight="20"
+            android:focusable="false"
+            android:scaleX="1.8"
+            android:scaleY="1.8"
+            android:theme="@style/SwitchTheme" />
+
+        <TextView
+            android:id="@+id/game_Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Playing..."
+            android:textColor="@color/red"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

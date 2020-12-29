@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activities.AboutPage"
+    android:fillViewport="true"
+    android:scrollbarSize="2dp"
+    android:scrollbarThumbVertical="@color/orange"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credits:\n"
+                android:layout_weight="90"
+                android:textColor="#00BCD4"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/see_All_Updates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right"
+                android:layout_weight="10"
+                android:gravity="center|top"
+                android:text="See All Updates" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App icon and avatars made by Freepik:"
+            android:textColor="#00BCD4"
+            android:textColorLink="#FF5722"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="www.flaticon.com\n\n"
+            android:textColor="#FF5722"
+            android:textColorLink="#00060707"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Githubs:\n\nDialogs made by using Aidan Follestad library\nLink to the github is here:"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/afollestad/material-dialogs\n\n"
+            android:textColor="#FF5722"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color Slider by Nazar Suhovich\nLink to the github is here:"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/naz013/ColorSlider\n\n"
+            android:textColor="#FF5722"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Floating Action Button by Dmytro Tarianyk\nLink to the github is here:"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/Clans/FloatingActionButton\n\n"
+            android:textColor="#FF5722"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading Animation by Jack Wang\nLink to the github is here:"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/81813780/AVLoadingIndicatorView\n\n"
+            android:textColor="#FF5722"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Circular Image  by Mikhaël Lopez\nLink to the github is here:"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/lopspower/CircularImageView\n\n"
+            android:textColor="#FF5722"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image Loading by Sam Judd\nLink to the github is here:"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/bumptech/glide\n\n"
+            android:textColor="#FF5722"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Navigation Bar by Ashok Varma\nLink to the github is here:"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/Ashok-Varma/BottomNavigation\n\n"
+            android:textColor="#FF5722"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akapps.scoretrackerv47.Activities.Game">
+
+    <item
+        android:title="Menu"
+        android:icon="@drawable/icon_menu_black"
+        android:orderInCategory="1"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_reset_Scores"
+                android:icon="@drawable/undo_icon"
+                android:title="Reset Scores"
+                android:visible="true"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/action_Info_Game"
+                android:title="Gestures"
+                android:icon="@drawable/icon_gesture"
+                app:showAsAction="always">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_Interval"
+        android:title="Interval"
+        app:showAsAction="always">
+    </item>
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="190">
+
+        <TextView
+            android:id="@+id/score_Name"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:maxLines="1"
+            android:text="Name"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/score_1"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="2"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/score_3"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="3"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score_4"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="4"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score_5"
+            android:layout_width="33dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="5"
+            android:textSize="25sp" />
+
+</LinearLayout>

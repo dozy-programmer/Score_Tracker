@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akapps.akhanshali2017.scoretracker47.Bugs_Suggestions">
+
+    <item
+        android:title="Menu"
+        android:icon="@drawable/icon_menu_black"
+        android:orderInCategory="1"
+        app:showAsAction="always">
+        <menu>
+
+    <item
+        android:id="@+id/action_View_Delete_Games"
+        android:icon="@drawable/icon_delete_all"
+        android:title="Delete All Games"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_Info_View_Game"
+        android:title="Gestures"
+        android:icon="@drawable/icon_gesture"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/action_Export_Game_Data"
+        android:icon="@drawable/icon_export_black"
+        android:title="Export Game Data"
+        android:visible="true"
+        app:showAsAction="always" />
+        </menu>
+    </item>
+
+</menu>

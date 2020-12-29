@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="479dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421">
+
+        <TextView
+            android:id="@+id/letters_Entered_Edit_Player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_edit"
+            android:layout_alignStart="@+id/enter_dialog"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="1dp"
+            android:text="0 / 12"
+            android:textColor="#00BCD4"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="310dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="Edit Player"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FF5722"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/close_dialog"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="bottom|right"
+            android:text="Close"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/gray"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/enter_dialog"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom|right"
+            android:text="Enter"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/green"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/delete_Player"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom|left"
+            android:text="Delete"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/red"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/name_edit"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="117dp"
+            android:layout_marginEnd="33dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:maxLength="12"
+            android:textColorHint="#00BCD4"
+            android:textSize="24sp" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/player_Icon_Edit"
+            android:layout_width="77dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/delete_Player"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="126dp"
+            android:layout_toStartOf="@+id/name_edit"
+            android:background="@drawable/icon_player_blue"
+            app:civ_border_color="@color/orange"
+            app:civ_border_width="1dp"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="1" />
+
+        <TextView
+            android:id="@+id/reset_Player"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/close_dialog"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="-2dp"
+            android:gravity="bottom|left"
+            android:text="Reset"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/yellow"
+            android:textSize="30sp" />
+
+        <com.github.naz013.colorslider.ColorSlider
+            android:id="@+id/color_slider"
+            android:layout_width="327dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="88dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_edit"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="72dp"
+            android:gravity="center"
+            android:text="Change Text Player Color"
+            android:textColor="#FF5722"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/add_mutiple_players"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="159dp"
+            android:layout_marginEnd="381dp"
+            android:layout_marginBottom="46dp"
+            app:srcCompat="@drawable/ic_edit" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

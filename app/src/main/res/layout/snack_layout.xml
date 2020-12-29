@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <EditText
+        android:id="@+id/enter_Score_Snack_Edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="55"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="Enter Score"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textColor="#FF5722"
+        android:textColorHint="#00BCD4" />
+
+    <Button
+        android:id="@+id/enter_Score_Snack_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_weight="20"
+        android:background="@android:color/transparent"
+        android:baselineAligned="true"
+        android:gravity="bottom|center_horizontal"
+        android:text="Enter"
+        android:paddingTop="10dp"
+        android:textColor="#00BCD4"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/set_To_All"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        app:srcCompat="@drawable/icon_group" />
+
+    <ImageView
+        android:id="@+id/close_Snack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="5"
+        android:paddingTop="10dp"
+        app:srcCompat="@drawable/icon_cancel_blue" />
+
+</LinearLayout>

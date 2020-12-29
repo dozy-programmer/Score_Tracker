@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Score Track</string>
+    <string name="empty_list">\tHow to use: \n\n1. Add players\n\n 2. Press play to start a game\n\n That\'s it!</string>
+    <string name="empty">No games</string>
+    <string name="contine_game_error">There are player(s) in this game that do not exist in the main player list,
+        therefore this game cannot be continued.\n\n
+        Solution:\nAdd the players that do not exist.
+    </string>
+    <string name="game_gestures">- Long click to undo \n\n- Click to set score\n\n- Click on timer to edit (enable in settings)</string>
+    <string name="edit_game">Editing game...</string>
+    <string name="view_game_gestures">- Long click to edit game</string>
+    <string name="home_gestures">- Add Players \n\n- Press Play to begin \n\n
+    <b> --&gt;[  Gestures  ]&lt;-- </b> \n\n - Long click player to edit </string>
+    <string name="user_Data">userInfo.txt</string>
+    <string name="user_Data_in_Game">userInfo_Game.txt</string>
+    <string name="game_Data">gameInfo.txt</string>
+    <string name="all_Updates">#30 Update (Version 4.0): April 10\n\n
+
+- bug fix for tablets\n______________________________\n
+
+#29 Update (Version 3.9): March 24\n\n
+
+- fixed bug where changing orientation when taking a picture or choosing an image would cause app to crash
+        \n______________________________\n
+
+#28 Update (Version 3.8): March 17\n\n
+
+- fixed bug in View Games where timer is continued on orientation change before selected game is continued. \n
+- fixed issue where player icons were being set to other players when scrolling\n
+- few more optimizations and other bug fixes\n______________________________\n
+
+#27 Update (Version 3.7): March 10\n\n
+
+- bug-fix (actual fix) during game where the first game would crash\n______________________________\n
+
+#26 Update (Version 3.6): March 10\n\n
+
+- bug-fix during game where the first game would crash\n______________________________\n
+
+#25 Update (Version 3.5): March 8\n\n
+
+- fixed issue (again) in the view games page where continued games scores would save on another game\n______________________________\n
+
+#24 Update (Version 3.4): March 3\n\n
+
+- added timer to see the duration of each game (with ability to stop/reset it)\n
+- fixed issue in the view games page where continued games scores would save on another game\n______________________________\n
+
+#22 + #23 Update \n\n(Version 3.2 + 3.3): Feb 27\n\n
+
+- fixed issue where editing player image and text color does not work at all\n______________________________\n
+
+#21 Update (Version 3.1): Jan 15\n\n
+
+- fixed issue where editing a player name to blank caused an error\n______________________________\n
+
+#20 Update (Version 3.0): October 29\n\n
+
+- permissions not needed, data saved in game (like profile pictures) will be stored in the app\n
+- added ability to send all the desired game(s) via email or the user can save it to their clipboard \n
+- fixed issue where after editing a player name and text color, editing the profile picture would reset them\n
+- added setting to make minus button invisible\n
+- more UI improvements for better experience\n
+- added feature to choose from 9 avatars for profile picture\n______________________________\n
+
+#19 Update (Version 2.9): [Current Version] Aug 28\n\n
+
+- more messing around with the colors and the UI\n______________________________\n
+
+#18 Update (Version 2.8): Aug 27\n\n
+
+- just messing around with the colors\n______________________________\n
+
+
+#17 Update (Version 2.7): Aug 27\n\n
+
+- more UI optimizations\n
+- fix issue during game in landscape mode where the first player is cut in half\n
+- dialogs for tablets has been updated to fit properly\n______________________________\n
+
+#16 Update (Version 2.6): Aug 26\n\n
+
+- users can now choose a photo from their photo gallery to set as their user icon\n
+- more UI and overall app optimizations\n
+- home page in landscape mode now has a button menu that opens to the left instead of up so that it fits in the screen\n
+- fix bug where when enter is pressed while editing a user, their picture icon gets deleted\n
+- fixed issue where recent scores for a deleted user who is re-added to continue a game is not updated correctly\n______________________________\n
+
+#15 Update (Version 2.5): Aug 24\n\n
+
+- fixed bug not saving scores that is set to all players\n
+- fixed recent scores, now it should update correctly after games AND continued games\n
+- added animation for adding and deleting players\n
+- added pac-man animation in toolbar during game for no purpose\n
+- fixed bug causing player pictures to not display\n______________________________\n
+
+#14 Update (Version 2.4): Aug 20\n\n
+
+- more graphical user interface optimizations\n
+- loading animation added when deleting, adding, or resetting players\n
+- fixed continued game bug (prompt kept showing up after hitting close)\n
+- added ability to include/exclude all players at once\n
+- added ability to set all players the same score during game\n
+- fixed settings layout in landscape mode (wasn\'t showing properly)\n______________________________\n
+
+#13 Update (Version 2.3): Aug 18\n\n
+
+- lots of optimizations for a better user interface\n
+- fix bug causing custom inputted scores to not be saved properly\n
+- added ability to add vibration for plus and minus buttons in settings\n
+- added ability to keep screen on during game in settings\n
+- added ability to change player icon by using camera in settings\n______________________________\n
+
+Twelveth Update (Version 2.2): Jul 30\n\n
+
+- recent scores from games that are continued will be updated in recent scores page\n
+- optimized app navigation by adding bottom navigation bar\n
+- added a settings page\n
+- added ability to change app to light mode\n______________________________\n
+
+Eleventh Update (Version 2.1): Jul 28\n\n
+
+- removed user tap target prompt due to not functioning properly\n______________________________\n
+
+Tenth Update (Version 2.0): Jul 28\n\n
+
+- optimized game layout quick view button to look more like a button.\n
+- optimized game layout text to be bigger for better viewing.\n
+- added feature to add multiple generic players at once (3-10, 15, 20).\n
+- optimized homepage to be more user friendly by implementing a fab menu to add users, delete users, and resetting scores instead of using menu on the top right\n______________________________\n
+
+Ninth Update (Version 1.9): Jul 25\n\n
+
+- optimization for game layout and view games layout for better viewing for regular devices and smaller ones.\n______________________________\n
+
+Eighth Update (Version 1.8): Jul 25\n\n
+
+- fixed bug where editing a player name continues a game even though a player does not exist causing an error.\n
+- fixed issue where custom input score during a game was not saving.\n
+- optimized view games page layout for better viewing.\n______________________________\n
+
+Seventh Update (Version 1.7): Jul 24\n\n
+
+- fixed bug where custom score input max length was too long causing a crash.\n
+- added a quick view option for each game to see players and their scores.\n
+- fixed issue where the switch button was getting cut off in regular and tablet layout.\n______________________________\n
+
+Sixth Update (Version 1.6): Jul 24\n\n
+
+- fixed bug causing deleted players to be continued in game, even though they do not exist causing an error.\n
+- added ability to edit game name by long-pressing game of choice.\n
+- fixed issue where orientation change during enter game name dialog to continue with values from last game instead of resetting.\n
+- fixed issue with keyboard opening after editing game name and when inputting custom scores during a game.\n______________________________\n
+
+Fifth Update (Version 1.5): Jul 24\n
+
+- optimized main page players layout for better viewing\n
+- added delete all games option when viewing all games\n
+- fixed bug where if a game was continued and orientation would change, the plus and minus buttons would disappear.\n______________________________\n
+
+Fourth Update (Version 1.4): Jul 23\n\n
+
+- added feature allowing continued games to be taken into account for player\'s wins, losses, draws, and total games.\n
+- fixed bug in-game causing undo action to be reset after orientation change.\n
+- added player name when inputting custom scores to see who\'s score is being changed.\n
+- optimized all games viewing layout due to the small text size.\n______________________________\n
+
+Third Update (Version 1.3): Jul 23\n\n
+
+- added ability to see all games and continue them if desired\n
+- fixed bug in game causing end game button to disappear\n
+- fixed bug in game causing players not playing to be deleted after ending game\n
+- optimized main page players layout for portrait and landscape mode to accommodate more devices\n
+- added tablet compatibility\n______________________________\n
+
+Second Update (Version 1.2): Jul 18\n\n
+
+- added ability to undo any player\'s last play (and undo that if desired) during a game by long-pressing player of choice\n
+- added ability to enter a custom score by clicking the player of choice during a game\n______________________________\n
+
+First Update (Version 1.1): Jul 18\n\n
+
+- optimized game layout for portrait and landscape mode\n</string>
+</resources>
