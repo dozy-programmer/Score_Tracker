@@ -16,9 +16,9 @@ This application makes it easier to keep track of game scores.
 
 ## App Layout
 
-App homepage             |  Project homepage | Project photos | Project inverters | Project Panels
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![app_main](https://user-images.githubusercontent.com/33325959/103191450-e551e100-4889-11eb-8204-2b95429e2383.png)  | ![project_main](https://user-images.githubusercontent.com/33325959/103191672-b2f4b380-488a-11eb-8972-90b66c7d9adb.png) | ![project_photos](https://user-images.githubusercontent.com/33325959/103191487-0e727180-488a-11eb-940a-7069caa9ecf3.png) | ![project_inverters](https://user-images.githubusercontent.com/33325959/103191919-a02eae80-488b-11eb-8927-7361f94ddbd9.png) | ![project_panels](https://user-images.githubusercontent.com/33325959/103191914-9c9b2780-488b-11eb-96c8-bb469c5a5478.png)
+App homepage             |  Project homepage | Project photos | Project inverters 
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![mainpage](https://user-images.githubusercontent.com/33325959/103323002-9b860980-49f5-11eb-8dd0-17d2942dc56a.png)  | ![gamepage](https://user-images.githubusercontent.com/33325959/103323004-9e80fa00-49f5-11eb-958b-4a5a002067e6.png) | ![gamehistorypage](https://user-images.githubusercontent.com/33325959/103323006-a0e35400-49f5-11eb-8592-ad05d7dd9cef.png) | ![settingspage](https://user-images.githubusercontent.com/33325959/103323008-a345ae00-49f5-11eb-8b90-10dedf19fed0.png)
 
 ## Features
 
