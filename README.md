@@ -46,8 +46,7 @@ App homepage             |  Game Page | Game History Page | Settings Page
 
 ## Purpose
 This is the first ever Android program I made. My goal with this project was to learn as much as I could and to be able to 
-think of a concept and make it a reality. Given this was the case, I did not focus on making it exactly readable and did 
-not follow good coding practices. This project started as a simple score keeper app and I just kept adding more and more 
+think of a concept and make it a reality. This project started as a simple score keeper app and I just kept adding more and more 
 features and I am happy with what I have so far. 
 	
 ## Tools
