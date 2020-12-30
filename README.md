@@ -12,7 +12,7 @@ This application makes it easier to keep track of game scores.
 
 ## Preview
 
-![demo_resized](https://user-images.githubusercontent.com/33325959/103190381-88542c00-4885-11eb-941c-78080d990b77.gif)
+<img src="score-tracker-gif.gif" width="200" height="420"/>
 
 ## App Layout
 
