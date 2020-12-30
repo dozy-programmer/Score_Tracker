@@ -23,21 +23,25 @@ App homepage             |  Game Page | Game History Page | Settings Page
 ## Features
 
 * App homepage: 
-	* Create/Delete project
-	* Change Status of project
+	* Create/Delete/Reset players
+	* Set photos/avatars of players
+	* Sort players by wins, losses, draws, and games played
 * Game Page: 
-	* Edit project information and checklist
-	* Navigate to project home using entered address
-	* Add/Delete notes
-	* Email project data including all photos, inverter information, and panel placement.
-	* Edit checklist to save project progress 
+	* Change interval of points (1, 2, or custom number)
+	* Change all players to a certain score
+	* Reset all scores
 * Game History Page: 
-	* Add/Delete project photos (Before Installation)
-	* Add/Delete project installation photos (After and during installation)
-	* Project photos and installation photos are separated by toolbar icon
+	* Edit game name
+	* Delete game(s) 
+	* Quick view to see scores without going in game
+	* Export all players and game data
+	* Continue game by clicked on it and pressing play icon
 * Settings Page:
-	* Add inverters (Inverters are matched with each panel) manually or by scanning using camera
-	* Edit/delete inverters
+	* Change theme (Dark or Light)
+	* Vibration for plus and minus buttons
+	* Keep screen always on during game
+	* Change minus button to invisible
+	* Enable timer for games
 * Download my app to see what other features there are!
 
 ## Purpose
