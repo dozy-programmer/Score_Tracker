@@ -16,9 +16,15 @@ This application makes it easier to keep track of game scores.
 
 ## App Layout
 
-App homepage             |  Game Page | Game History Page | Settings Page
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![mainpage](https://user-images.githubusercontent.com/33325959/103323002-9b860980-49f5-11eb-8dd0-17d2942dc56a.png)  | ![gamepage](https://user-images.githubusercontent.com/33325959/103323004-9e80fa00-49f5-11eb-958b-4a5a002067e6.png) | ![gamehistorypage](https://user-images.githubusercontent.com/33325959/103323006-a0e35400-49f5-11eb-8592-ad05d7dd9cef.png) | ![settingspage](https://user-images.githubusercontent.com/33325959/103323008-a345ae00-49f5-11eb-8b90-10dedf19fed0.png)
+App homepage |  Game Page |
+:-------------------------:|:-------------------------:|
+<img src="https://user-images.githubusercontent.com/33325959/103323002-9b860980-49f5-11eb-8dd0-17d2942dc56a.png" width="120" height="250"/> | <img src="https://user-images.githubusercontent.com/33325959/103323004-9e80fa00-49f5-11eb-958b-4a5a002067e6.png" width="120" height="250"/>
+
+
+
+Game History Page | Settings Page 
+:-------------------------:|:-------------------------:|
+<img src="https://user-images.githubusercontent.com/33325959/103323006-a0e35400-49f5-11eb-8592-ad05d7dd9cef.png" width="120" height="250"/> | <img src="https://user-images.githubusercontent.com/33325959/103323008-a345ae00-49f5-11eb-8b90-10dedf19fed0.png" width="120" height="250"/>
 
 ## Features
 
